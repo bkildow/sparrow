@@ -4,22 +4,22 @@ path: /coaching
 title: Coaching
 ---
 
-### How do I know if coaching is right for me?
+Intentional living is living on purpose and in line with purpose. It requires paying attention to what’s here and what’s not. And then deciding what to do about it.
 
-Are you a human? Then get coached son!
+## What is Coaching?
 
-### Single origin
+Coaching is a way to take stock of where you are, design where you want to go, and begin moving in that direction. Simply put, a coach helps you gain clarity by asking powerful questions, challenging, championing, and providing you with accountability.
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Coaching sessions help you discover your purpose, values, and perspective. They help you design and decide how you want to move forward in a way that is intentional and in alignment with what’s most important.
 
-### Sustainable farming
+Some people come to the coaching table because they’re stuck. Some are in transition in their life, family, career, etc. Others simply know there is something else, something more, and coaching can help figure out just what that is.
 
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+## What’s the Coaching Process?
 
-### Direct sourcing
+If we decide to partner together, we’ll set our schedule. Each of our sessions together will involve discovering, designing, and deciding what to do about the insights that have emerged.
 
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+I recommend two sessions per month for three months. Most clients find that six months is ideal for deepened insight and action to take root.
 
-### Reinvest profits
+## How do I know if Coaching is right for me?
 
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Want to find out what coaching is about and whether you’d like to partner? Schedule a free Sample Session with me.

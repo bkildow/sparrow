@@ -1,79 +1,61 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import React from "react";
+import Layout from "../components/Layout";
+import { Link } from "gatsby";
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
-
     return (
       <Layout>
-        <section className="section">
+        <section className="section section--gradient">
           <div className="container">
-            <div className="content">
-              <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-            </div>
-            {posts
-              .map(({ node: post }) => (
-                <div
-                  className="content"
-                  style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                  key={post.id}
-                >
-                  <p>
-                    <Link className="has-text-primary" to={post.fields.slug}>
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <small>{post.frontmatter.date}</small>
-                  </p>
-                  <p>
-                    {post.excerpt}
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div className="section">
+                  <div className="content">
+                    <h1>
+                      There is a concept in the world of flight called the power
+                      curve.
+                    </h1>
                     <br />
-                    <br />
-                    <Link className="button is-small" to={post.fields.slug}>
-                      Keep Reading →
-                    </Link>
-                  </p>
+
+                    <p>
+                      When an airplane is behind the power curve, the drag
+                      requires the pilot to slow down in order to speed up. The
+                      pilot has to lower the nose in order to gain altitude.
+                    </p>
+
+                    <p>
+                      Some of us feel like we are behind the power curve. Losing
+                      altitude quickly, short of the runway we want. And we do
+                      what comes naturally, we add power. But, behind the power
+                      curve, we can’t keep up with the drag and we burn out.
+                    </p>
+
+                    <p>
+                      Some of us are not behind the power curve. We are working
+                      with the drag, but we are ready to change our direction.
+                    </p>
+
+                    <p>
+                      Coaching helps us do both. Coaching is a way to lower the
+                      nose of the plane, to intentionally slow down, to take
+                      stock, to design, and to ultimately gain altitude.
+                    </p>
+                    <p>
+                      <strong>Want a free sample session?</strong>
+                    </p>
+                    <p>
+                      <Link to="/contact" className="button is-medium is-info">
+                        Contact Us
+                      </Link>
+                    </p>
+                  </div>
                 </div>
-              ))}
+              </div>
+            </div>
           </div>
         </section>
       </Layout>
-    )
+    );
   }
 }
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
-  }
-`
