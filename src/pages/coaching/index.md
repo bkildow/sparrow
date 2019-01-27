@@ -1,5 +1,5 @@
 ---
-templateKey: "about-page"
+templateKey: "content"
 path: /coaching
 title: Coaching
 ---
@@ -18,8 +18,8 @@ Some people come to the coaching table because they’re stuck. Some are in tran
 
 If we decide to partner together, we’ll set our schedule. Each of our sessions together will involve discovering, designing, and deciding what to do about the insights that have emerged.
 
-I recommend two sessions per month for three months. Most clients find that six months is ideal for deepened insight and action to take root.
+I recommend two 50-minute sessions per month for three months. Most clients find that six months is ideal for deepened insight and action to take root.
 
 ## How do I know if Coaching is right for me?
 
-Want to find out what coaching is about and whether you’d like to partner? Schedule a free Sample Session with me.
+Want to find out what coaching is about and whether you’d like to partner? [Schedule a free sample session with me.](/contact)
