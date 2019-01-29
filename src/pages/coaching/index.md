@@ -1,12 +1,8 @@
 ---
 templateKey: "content"
 path: /coaching
-title: Coaching
+title: What is Coaching?
 ---
-
-Intentional living is living on purpose and in line with purpose. It requires paying attention to what’s here and what’s not. And then deciding what to do about it.
-
-## What is Coaching?
 
 Coaching is a way to take stock of where you are, design where you want to go, and begin moving in that direction. Simply put, a coach helps you gain clarity by asking powerful questions, challenging, championing, and providing you with accountability.
 

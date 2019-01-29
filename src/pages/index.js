@@ -13,11 +13,20 @@ export default class IndexPage extends React.Component {
                 <div className="section">
                   <div className="content">
                     <h1>
-                      There is a concept in the world of flight called the power
-                      curve.
+                      Intentional living is living on purpose and in line with
+                      purpose.
                     </h1>
+                    <p>
+                      It requires paying attention to what’s here and what’s
+                      not. And then deciding what to do about it.
+                    </p>
                     <br />
-
+                    <p>
+                      <strong>
+                        There is a concept in the world of flight called the
+                        power curve.
+                      </strong>
+                    </p>
                     <p>
                       When an airplane is behind the power curve, the drag
                       requires the pilot to slow down in order to speed up. The
